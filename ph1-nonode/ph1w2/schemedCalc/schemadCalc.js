@@ -4,15 +4,17 @@ operationSchema = {
     numArgs: {type: "number"}, // 
     operation: {type: "function", default: function(){return '1337FAIL'}}
 }
-operations = {};
+operations = [];
  
 // calc has operations property containing operation objects
+// calc has schema property containing a schema
 // calc has addTo method for adding operations -> schema
 // calc has operate method that
 //		checks to make sure operation exists
 //		checks to make sure the number of args is right
 //		executes it
-
+// calc has changeSchema method that changes it's schema prop
+	
 function model(op, obj) {
 	if (op === "add") {
 		add(obj)

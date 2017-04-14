@@ -1,11 +1,12 @@
 // focus on ifs, loops, basic tools of logic control
 
-schema = {
-    name: {type: "string", default: "NoBody"},
-    age: {type: "number"},
-    married: {type: "boolean", default: false}
-    }
-DB = []
+
+operationSchema = {
+    name: {type: "string", default: "ackermann"}, // name of operation
+    numArgs: {type: "number"}, // 
+    operation: {type: "function", default: function(){return '1337FAIL'}}
+}
+operations = [];
 
 
  

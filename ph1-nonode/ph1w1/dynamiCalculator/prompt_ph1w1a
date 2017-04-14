@@ -9,7 +9,10 @@ Your project will contain these items:
 			Name: a string that describes what the operation does
 			Args: the number of arguments this operation takes
 		Methods:
-			Operation: a function that does the math
+			Operation: a function that does the math 
+				args: variable - up to you
+				returns: the result of the math you made it do
+				behavior: it executes the formula indicated in the 'name' property
 	Dynamic calculator function:
 		Arguments:
 			op: An operation object
