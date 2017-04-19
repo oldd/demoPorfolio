@@ -32,7 +32,7 @@ Your project will contain these items:
 			array: containing -	
 				a string: tells if the match was a success or not. 
 					if not it tells what was wrong with the op
-				an op object: it returns the op object passed in
+				an op object: it returns the op object passed in.
 					if defaults were needed it contains those
 		Behavior:
 			schematizer will take an object and a schema.  it will compare the object to the expectations of the schema, and return the object with a success/failure message.  
