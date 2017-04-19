@@ -1,7 +1,7 @@
 Project B:   Schematized calculator
 
 Prompt:
-	you're a clever accountant
+	you're a clever accountant (feel free to better this story, guillermo)
 
 Your project will contain these items:
 	a schemadCalc object:
@@ -25,13 +25,14 @@ Your project will contain these items:
 				behavior: resets 'this.schema' to the argument.  I can't imagine why this would fail.
 
 Usage example:
-	**** later ****
+	**** later **** (guillermo, put some of your test cases?)
 
-Sample inputs and outputs: *operationSchema is defined in 'code'*
+Sample inputs and outputs: *operationSchema is defined in 'code'* 
 	********* later  *********
 
 The exercises it combines:
-	Fill this in once the exercises are made
+	Fill this in once the exercises are made 
+	(this is from the idea that the exercises should build directly to the project)
 
 	
 Challenges: 

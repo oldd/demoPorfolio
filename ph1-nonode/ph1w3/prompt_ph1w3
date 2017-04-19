@@ -1,0 +1,45 @@
+
+Project:   Beaver Browser
+
+Prompt
+	You are an aspiring naturalist tracking the behavior of local Urban Beavers.  
+
+Your project will contain these items:
+	BEAVERS.CSS:  a file to make the html pretty
+	BEAVERS.HTML:  
+		IMPORTS: model.js, view.js, controller.js, beavers.css
+		INTERACTIONS:
+			UNTRACK ALL BEAVERS: be able to untrack all beavers when funding is cut
+			RETRACK ALL BEAVERS: rich daddy
+			UNTRACK SINGLE BEAVER: maybe it died, maybe you're bored of it
+			RETRACK SINGLE BEAVER: you're bored, why not track another beaver
+			ADD A BEAVER:  prompt the user for all the needed info and make the beaver
+			SPOT A BEAVER:  prompt the user for the new location and add it to the beaver  
+	
+	MODEL.JS:  all functionality connected to storing, accessing, modifying beavers
+		BEAVERSLIST:  an object 
+			PROPERTIES:
+			METHODS:
+	
+	VIEW.JS:  all funcitonality connected to making something visible
+		BEAVERVIEWER:  an object
+			PROPERTIES:
+			METHODS:
+	
+	CONTROLLER.JS:  manipulates BEAVERSLIST and BEAVERVIEWER.  all buttons call a method in CONTROLLER
+		CONTROLLER:  an object
+			PROPERTIES:
+			METHODS:
+
+
+Usage example:
+	-- an example of the syntax someone could use to call your functions in their code --
+
+Sample inputs and outputs:
+	-- example arguments and what a correct project will do when given those inputs --
+
+The exercises it combines:
+	-- which exercises from the week can be modified to build this project --
+	
+Challenges: 
+	-- some ideas for next steps if you're bored --

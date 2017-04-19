@@ -4,15 +4,29 @@ Prompt:
 	You're a lazy teacher and want to make sure students are writing good operations
 
 Your project will contain these items:
-	Schema object:
-		Properties:
-			Name: a string that describes what the operation does
-			Args: the number of arguments this operation takes
-		Methods:
-			Operation: a function that does the math
+	OPERATION:   objects.  as many as you like
+		PROPERTIES:
+			NAME: a string that describes what the operation does
+			NUMARGS: the number of arguments this operation takes
+		METHODS:
+			OPERATION: a function that does the math
+	SCHEME:   object
+		PROPERTIES:
+			NAME:  object
+				PROPERTIES:
+					TYPE: a string indicating the type of name
+					FALLBACK: a value to be used as 'name' if an operation comes in without one
+			NUMARGS:  object
+				PROPERTIES:
+					TYPE:  a string indicating the type of 'args'
+					FALLBACK:  an value to fall back on if there is no 'args'
+			OPERATION:  object
+				PROPERTIES:
+					TYPE: a string indicating the type of 'operation'
+					FALLBACK:  a default value for 'operation' if it's not included
 	Schema validating function:
 		Arguments:
-			op: an operation object
+			op: an operation object 
 			schema:  the schema it must match
 		Return values:
 			array: containing -	
