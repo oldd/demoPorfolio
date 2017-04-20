@@ -2,7 +2,8 @@
 Project:   Beaver Browser
 
 Prompt
-	You are an aspiring naturalist tracking the behavior of local Urban Beavers.  
+	You are an aspiring naturalist tracking the behavior of local Urban Beavers.
+	(this is strongly influenced by the Practical Javascript final project, use it as a reference)  
 
 Your project will contain these items:
 	BEAVERS.CSS:  a file to make the html pretty
