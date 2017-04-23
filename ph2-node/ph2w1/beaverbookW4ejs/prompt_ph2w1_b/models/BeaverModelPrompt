@@ -9,7 +9,7 @@ MODEL.JS:  all functionality connected to storing, accessing, modifying beavers
 			TRACKED:  boolean, is this beaver being tracked?
 	BEAVERSLIST:  an object 
 		PROPERTIES:
-			BEAVERS:  array containing beaver records
+			BEAVERS:  connection to mongoDB collection
 		METHODS:
 			TOGGLETRACKED:
 				ARGS: int, the index of the beaver to un/track

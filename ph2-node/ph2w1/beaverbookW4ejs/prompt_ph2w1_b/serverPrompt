@@ -1,0 +1,11 @@
+import modules
+
+configure server
+
+static serving
+	any resources that do not change as the data changes 
+	(style, scripts, HTML ...)
+
+require routes
+
+start server

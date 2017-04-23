@@ -6,6 +6,7 @@ MODEL.JS:  all functionality connected to storing, accessing, modifying beavers
 			AGE: int, the beaver's age
 			SEX: string indicating beaver's sex
 			LOCATIONHISTORY: array containing history of recorded sightings
+			FRIENDS: array containing beaver ids
 			TRACKED:  boolean, is this beaver being tracked?
 	BEAVERSLIST:  an object 
 		PROPERTIES:

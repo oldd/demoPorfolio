@@ -8,7 +8,7 @@ RELMOD.JS:  all functionality connected to storing, accessing, modifying beavers
 			STATUS:  for example, boolean - indicating pending or responded to. (design this one to fit how you envision beavers classifying their relationships.  perhaps a string so 'its complicated' is an option)
 	BEAVERSLIST:  an object 
 		PROPERTIES:
-			RELATIONS:  array containing relationship records
+			RELATIONS:  connection to mongoDB connection
 		METHODS:
 			CHANGESTATUS:
 				ARGS: (depends on how you choose to use status)
