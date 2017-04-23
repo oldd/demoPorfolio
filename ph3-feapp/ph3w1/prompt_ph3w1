@@ -1,0 +1,15 @@
+here we have the project from last week, but with a front-end app integrated.
+
+the front-end app -
+will use AJAX 
+will have it's own set of router files
+
+this will be enough work to get working well
+
+challenge
+write a 'full' front-end back-end with proxies for all app components that only updates to synch its db to the backend one. (its db will deal with the same schema as your real backend) 
+how to manage different users accessing the same data at the same time?
+
+there will be a shadow copy of your project (file structure and all) that consists of api's only
+
+
