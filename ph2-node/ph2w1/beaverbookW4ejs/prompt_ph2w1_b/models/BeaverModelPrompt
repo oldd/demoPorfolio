@@ -1,3 +1,5 @@
+(same as week 4 project.  reuse or refactor that)
+
 MODEL.JS:  all functionality connected to storing, accessing, modifying beavers
 	BEAVER RECORD: object
 		PROPERTIES:

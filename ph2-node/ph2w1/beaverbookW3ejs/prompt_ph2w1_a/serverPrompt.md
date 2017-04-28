@@ -1,7 +1,8 @@
 import modules
 
-configure server
+configure app
 
+define middleware
 static serving
 	any resources that do not change as the data changes 
 	(style, scripts, HTML ...)
