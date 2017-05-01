@@ -1,3 +1,7 @@
+************  update for postman demo
+
+
+
 import modules
 
 configure app
@@ -16,5 +20,20 @@ Beaver handlers   (these will manipulate the models)
 | DElETE | /profile/:id/delete |  deletes said beaver, renders home EJS|` 
 | POST | /signup  | creates beaver, renders said profile   |  
 
+
+-------- |  
+index
+|  GET  | /home 
+create
+| GET  | /beaver  |
+| POST  | /beaver  |
+read
+|  GET |  /beaver/:id |
+update
+| GET  | /beaver/:id/update  |
+| POST  | /beaver/:id/update  |
+delete
+| GET  | /beaver/:id/delete  |
+| POST  | /beaver/:id/delete  |
 
 start server

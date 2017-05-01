@@ -22,4 +22,27 @@ Beaver handlers   (these will manipulate the models)
 | DElETE | /relation/:id/delete |  deletes said relation, renders profile EJS| 
 | POST | /relation/:id/create |  deletes said relation, renders profile EJS| 
 
+
+-------- |  
+index
+|  GET  | /home 
+create
+| GET  | /beaver  |
+| POST  | /beaver  |
+| GET  | /relations  |
+| POST  | /relations  |
+read
+|  GET |  /beaver/:id |
+|  GET |  /relations/:id |
+update
+| GET  | /beaver/:id/update  |
+| POST  | /beaver/:id/update  |
+| GET  | /relations/:id/update  |
+| POST  | /relations/:id/update  |
+delete
+| GET  | /beaver/:id/delete  |
+| POST  | /beaver/:id/delete  |
+| GET  | /relations/:id/delete  |
+| POST  | /relations/:id/delete  |
+
 start server
