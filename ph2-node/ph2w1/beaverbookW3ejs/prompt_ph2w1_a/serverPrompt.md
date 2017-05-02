@@ -1,7 +1,3 @@
-************  update for postman demo
-
-
-
 import modules
 
 configure app
@@ -14,26 +10,18 @@ static serving
 Beaver handlers   (these will manipulate the models)
 |  HTTP method  |  URL | Behavior  |  
 |------------- |---------- |--------- |  
-|  GET  | /home | retrieves beavers, renders home EJS |  
-| GET |  /profile/:id  | retrieves said beaver, renders profile EJS  |  
-| POST | /profile/:id/update |  updates said beaver, renders profile EJS |
-| DElETE | /profile/:id/delete |  deletes said beaver, renders home EJS|` 
-| POST | /signup  | creates beaver, renders said profile   |  
-
-
--------- |  
-index
-|  GET  | /home 
-create
-| GET  | /beaver  |
-| POST  | /beaver  |
-read
-|  GET |  /beaver/:id |
-update
-| GET  | /beaver/:id/update  |
-| POST  | /beaver/:id/update  |
-delete
-| GET  | /beaver/:id/delete  |
-| POST  | /beaver/:id/delete  |
+| | index | |
+|  GET  | /home |  renders home page  |
+| | create | |
+| GET  | /beaver  | renders 'signin' page |
+| POST  | /beaver  | sends new beaver to database |
+| | read | |
+|  GET |  /beaver/:id | renders single beaver's profile |
+| | update | |
+| GET  | /beaver/:id/update  | send page for modifying a beaver |
+| POST  | /beaver/:id/update  | sends updated beaver data |
+| | delete | |
+| GET  | /beaver/:id/delete  | get page to confirm beaver deletion |
+| POST  | /beaver/:id/delete  | delete da beaver |
 
 start server
